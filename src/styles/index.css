@@ -1,12 +1,29 @@
+body{
+    background-color: darkturquoise;
+    background: linear-gradient(to right, rgb(1, 157, 160), rgb(2, 187, 172));
+}
+h1{
+    color: azure;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 80px;
+    font-weight: 600;
+}
 
-/* 
+.cuerpoCarta{
+    background-color: azure;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.tituloCarta{
+    font-family: fantasy;
+    font-size: 25px;
+    text-decoration: solid;
+    text-transform: capitalize;
+}
 
-*/
+.notas{
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: 200;
+    text-decoration: solid;
+}
